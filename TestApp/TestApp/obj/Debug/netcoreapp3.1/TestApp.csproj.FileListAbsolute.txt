@@ -1,0 +1,13 @@
+D:\Yana\Work\TestApp\TestApp\bin\Debug\netcoreapp3.1\TestApp.exe
+D:\Yana\Work\TestApp\TestApp\bin\Debug\netcoreapp3.1\TestApp.deps.json
+D:\Yana\Work\TestApp\TestApp\bin\Debug\netcoreapp3.1\TestApp.runtimeconfig.json
+D:\Yana\Work\TestApp\TestApp\bin\Debug\netcoreapp3.1\TestApp.runtimeconfig.dev.json
+D:\Yana\Work\TestApp\TestApp\bin\Debug\netcoreapp3.1\TestApp.dll
+D:\Yana\Work\TestApp\TestApp\bin\Debug\netcoreapp3.1\TestApp.pdb
+D:\Yana\Work\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yana\Work\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.AssemblyInfoInputs.cache
+D:\Yana\Work\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.AssemblyInfo.cs
+D:\Yana\Work\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.csproj.CoreCompileInputs.cache
+D:\Yana\Work\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.dll
+D:\Yana\Work\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.pdb
+D:\Yana\Work\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.genruntimeconfig.cache
