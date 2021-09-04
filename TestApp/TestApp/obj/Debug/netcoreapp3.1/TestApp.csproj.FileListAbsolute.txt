@@ -12,4 +12,3 @@ D:\Yana\Work\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.dll
 D:\Yana\Work\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.pdb
 D:\Yana\Work\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.genruntimeconfig.cache
 D:\Yana\Work\TestApp\TestApp\bin\Debug\netcoreapp3.1\input.txt
-D:\Yana\Work\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.csproj.AssemblyReference.cache

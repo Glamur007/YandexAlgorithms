@@ -1,5 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
+	<PropertyGroup>
+		<LangVersion>5.0</LangVersion>
+	</PropertyGroup>
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
@@ -7,7 +9,7 @@
 
   <ItemGroup>
     <Compile Remove="Program1.cs" />
-    <Compile Remove="ProgramTriangle.cs" />
+    <Compile Remove="ProgramParalle.cs" />
     <Compile Remove="ProgramXO.cs" />
     <Compile Remove="ProgramЩдв2.cs" />
   </ItemGroup>
