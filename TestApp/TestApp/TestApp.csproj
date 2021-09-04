@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,7 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="ProgramOld.cs" />
+    <Compile Remove="Program1.cs" />
+    <Compile Remove="ProgramTriangle.cs" />
+    <Compile Remove="ProgramXO.cs" />
+    <Compile Remove="ProgramЩдв2.cs" />
   </ItemGroup>
 
   <ItemGroup>

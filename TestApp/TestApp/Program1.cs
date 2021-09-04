@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace TestSum
 {
-    class Program
+    class Program1
     {
         static void Main()
         {
