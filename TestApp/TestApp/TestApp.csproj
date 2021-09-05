@@ -8,6 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ProgramBInteractor.cs" />
+    <Compile Remove="ProgramBMetro.cs" />
     <Compile Remove="ProgramComplexEquation.cs" />
     <Compile Remove="ProgramParalle.cs" />
     <Compile Remove="ProgramParallelogram.cs" />
