@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace TestSum
 {
-    class Program
+    class ProgramXO
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var line1 = Console.ReadLine();
             var line2 = Console.ReadLine();

@@ -8,8 +8,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Program1.cs" />
     <Compile Remove="ProgramParalle.cs" />
+    <Compile Remove="ProgramTriangle.cs" />
     <Compile Remove="ProgramXO.cs" />
     <Compile Remove="ProgramЩдв2.cs" />
   </ItemGroup>
