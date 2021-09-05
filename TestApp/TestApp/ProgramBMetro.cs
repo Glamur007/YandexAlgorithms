@@ -35,18 +35,18 @@ namespace TestSum
                 }
             }
 
-            int? min1 = j - i - 1;
+            int? min1 = Math.Abs((j - i).Value) - 1;
             int? min2 = null;
             if (j > i)
             {
-                min2 = i + (cnt - j) - 1;
+                min2 = Math.Abs((i + (cnt - j)).Value) - 1;
             }
             else
             {
-                min2 = j + (cnt - i) - 1;
+                min2 = Math.Abs((j + (cnt - i)).Value) - 1;
             }
             int? min = null;
-            if ((min2 < min1 && min2>=0)|| min1 < 0)
+            if (min2 < min1)
             {
                 min = min2;
             }
