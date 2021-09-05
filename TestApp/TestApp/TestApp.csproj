@@ -8,7 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ProgramComplexEquation.cs" />
     <Compile Remove="ProgramParalle.cs" />
+    <Compile Remove="ProgramParallelogram.cs" />
+    <Compile Remove="ProgramSumWithFile.cs" />
     <Compile Remove="ProgramTriangle.cs" />
     <Compile Remove="ProgramXO.cs" />
     <Compile Remove="ProgramЩдв2.cs" />
