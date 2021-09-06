@@ -13,3 +13,17 @@ D:\Yana\Work\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.pdb
 D:\Yana\Work\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.genruntimeconfig.cache
 D:\Yana\Work\TestApp\TestApp\bin\Debug\netcoreapp3.1\input.txt
 D:\Yana\Work\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.csproj.AssemblyReference.cache
+C:\Work\study\TestApp\TestApp\bin\Debug\netcoreapp3.1\TestApp.exe
+C:\Work\study\TestApp\TestApp\bin\Debug\netcoreapp3.1\input.txt
+C:\Work\study\TestApp\TestApp\bin\Debug\netcoreapp3.1\TestApp.deps.json
+C:\Work\study\TestApp\TestApp\bin\Debug\netcoreapp3.1\TestApp.runtimeconfig.json
+C:\Work\study\TestApp\TestApp\bin\Debug\netcoreapp3.1\TestApp.runtimeconfig.dev.json
+C:\Work\study\TestApp\TestApp\bin\Debug\netcoreapp3.1\TestApp.dll
+C:\Work\study\TestApp\TestApp\bin\Debug\netcoreapp3.1\TestApp.pdb
+C:\Work\study\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.csprojAssemblyReference.cache
+C:\Work\study\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.AssemblyInfoInputs.cache
+C:\Work\study\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.AssemblyInfo.cs
+C:\Work\study\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.csproj.CoreCompileInputs.cache
+C:\Work\study\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.dll
+C:\Work\study\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.pdb
+C:\Work\study\TestApp\TestApp\obj\Debug\netcoreapp3.1\TestApp.genruntimeconfig.cache

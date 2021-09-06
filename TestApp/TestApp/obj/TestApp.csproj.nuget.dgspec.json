@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Yana\\Work\\TestApp\\TestApp\\TestApp.csproj": {}
+    "C:\\Work\\study\\TestApp\\TestApp\\TestApp.csproj": {}
   },
   "projects": {
-    "D:\\Yana\\Work\\TestApp\\TestApp\\TestApp.csproj": {
+    "C:\\Work\\study\\TestApp\\TestApp\\TestApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Yana\\Work\\TestApp\\TestApp\\TestApp.csproj",
+        "projectUniqueName": "C:\\Work\\study\\TestApp\\TestApp\\TestApp.csproj",
         "projectName": "TestApp",
-        "projectPath": "D:\\Yana\\Work\\TestApp\\TestApp\\TestApp.csproj",
+        "projectPath": "C:\\Work\\study\\TestApp\\TestApp\\TestApp.csproj",
         "packagesPath": "C:\\Users\\glamu\\.nuget\\packages\\",
-        "outputPath": "D:\\Yana\\Work\\TestApp\\TestApp\\obj\\",
+        "outputPath": "C:\\Work\\study\\TestApp\\TestApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\glamu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
