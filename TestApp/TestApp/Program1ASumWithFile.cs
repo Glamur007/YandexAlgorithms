@@ -1,9 +1,9 @@
 ﻿using System;
 using System.IO;
 
-namespace TestSum
+namespace TestApp
 {
-    class ProgramSumWithFile
+    class Program1ASumWithFile
     {
         static void Main(string[] args)
         {

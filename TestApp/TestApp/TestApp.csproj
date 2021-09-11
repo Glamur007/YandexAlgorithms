@@ -8,6 +8,21 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Program1AComplexEquation.cs" />
+    <Compile Remove="Program1AParallelogram.cs" />
+    <Compile Remove="Program1ASumWithFile.cs" />
+    <Compile Remove="Program1ATriangle.cs" />
+    <Compile Remove="Program1AXO.cs" />
+    <Compile Remove="Program1BDate.cs" />
+    <Compile Remove="Program1BInteractor.cs" />
+    <Compile Remove="Program1BMetro.cs" />
+    <Compile Remove="Program2AChess.cs" />
+    <Compile Remove="Program2AConfuse.cs" />
+    <Compile Remove="Program2BDiplom.cs" />
+    <Compile Remove="Program2BHouse.cs" />
+    <Compile Remove="Program2BMax.cs" />
+    <Compile Remove="Program2BPolindrom - Copy.cs" />
+    <Compile Remove="Program2BPolindrom.cs" />
     <Compile Remove="ProgramBInteractor.cs" />
     <Compile Remove="ProgramBMetro.cs" />
     <Compile Remove="ProgramBSchool.cs" />

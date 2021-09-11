@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TestSum
+namespace TestApp
 {
-    class ProgramComplexEquation
+    class Program1AComplexEquation
     {
         static void Main()
         {

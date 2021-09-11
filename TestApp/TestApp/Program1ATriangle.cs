@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace TestSum
+namespace TestApp
 {
-    class ProgramTriangle
+    class Program1ATriangle
     {
         static void Main()
         {

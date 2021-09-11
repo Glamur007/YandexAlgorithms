@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 
-namespace TestSum
+namespace TestApp
 {
-    class ProgramBMetro
+    class Program1BMetro
     {
         static void Main()
         {

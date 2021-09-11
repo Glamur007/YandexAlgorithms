@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace TestSum
+namespace TestApp
 {
-    class ProgramParallelogram
+    class Program1AParallelogram
     {
         static void Main()
         {
