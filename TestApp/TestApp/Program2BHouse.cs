@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace TestApp
 {
@@ -6,45 +8,79 @@ namespace TestApp
     {
         static void Main()
         {
-            var arrayInt = new UInt16[10];
             var line = Console.ReadLine();
             var array = line.Split(' ');
-            var f = 0;
-            var d = 0;
-            UInt16[] max = new UInt16[10];
-            for (int g = 0; g < array.Length; g++)
+            short? d = null;
+            var max = new Dictionary<short, short>();
+            for (Int16 g = 0; g < array.Length; g++)
             {
-                if (!string.IsNullOrWhiteSpace(array[g]))
+                if (string.IsNullOrWhiteSpace(array[g]))
                 {
-                    arrayInt[f] = Convert.ToUInt16(array[g]);
-                    if (arrayInt[f] == 2)
+                    continue;
+                }
+                var a = Convert.ToUInt16(array[g]);
+                if (a == 2)
+                {
+                    d = 0;
+                }
+
+                if (a == 1)
+                {
+                    if (d != null)
                     {
-                        d++;
-                    }
-                    else if ((arrayInt[f] == 1 && max[d] == 0)||(max[d] != 0 && (arrayInt[f] == 1|| arrayInt[f] == 0)))
+                        d = (short)(d + 1);
+                        max[g] = d.Value;
+                    };
+                }
+
+                if (a == 0)
+                {
+                    if (d != null)
                     {
-                        max[d]++;
+                        d = (short) (d + 1);
                     }
-                    f++;
                 }
             }
 
-            for (int h = arrayInt.Length - 1; h > 0; h--)
+            d = null;
+            for (short h = (short)(array.Length - 1); h >= 0; h--)
             {
-                if (arrayInt[h] == 2)
+                if (string.IsNullOrWhiteSpace(array[h]))
                 {
-                    d++;
+                    continue;
                 }
-                else if ((arrayInt[h] == 1 && max[d] == 0) || (max[d] != 0 && (arrayInt[h] == 1 || arrayInt[h] == 0)))
+                var a = Convert.ToUInt16(array[h]);
+                if (a == 2)
                 {
-                    max[d]++;
+                    d = 0;
+                }
+
+                if (a == 1)
+                {
+                    if (d != null)
+                    {
+                        d = (short) (d + 1);
+                        if (max.ContainsKey(h))
+                        {
+                            max[h] = Math.Min(max[h], d.Value);
+                        }
+                        else
+                        {
+                            max[h] = d.Value;
+                        }
+                    }
+                }
+
+                if (a == 0)
+                {
+                    if (d != null)
+                    {
+                        d = (short) (d + 1);
+                    }
                 }
             }
 
-            for (int s = 0; s < d; s++)
-            {
-                Console.WriteLine(max[s]);
-            }
+            Console.WriteLine(max.Values.Max());
         }
     }
 }

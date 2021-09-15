@@ -18,11 +18,14 @@
     <Compile Remove="Program1BMetro.cs" />
     <Compile Remove="Program2AChess.cs" />
     <Compile Remove="Program2AConfuse.cs" />
+    <Compile Remove="Program2AGlass.cs" />
     <Compile Remove="Program2BDiplom.cs" />
     <Compile Remove="Program2BHouse.cs" />
     <Compile Remove="Program2BMax.cs" />
     <Compile Remove="Program2BPolindrom - Copy.cs" />
     <Compile Remove="Program2BPolindrom.cs" />
+    <Compile Remove="Program2BSeat.cs" />
+    <Compile Remove="Program3ASumWithFile.cs" />
     <Compile Remove="ProgramBInteractor.cs" />
     <Compile Remove="ProgramBMetro.cs" />
     <Compile Remove="ProgramBSchool.cs" />
