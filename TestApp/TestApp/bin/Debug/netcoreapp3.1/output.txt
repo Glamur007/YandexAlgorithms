@@ -1,3 +1,8 @@
-McCain 25
-Fre 1
-Rgt 3
+Yes
+Yes
+Yes
+No
+Yes
+No
+No
+Yes

@@ -25,7 +25,11 @@
     <Compile Remove="Program2BPolindrom - Copy.cs" />
     <Compile Remove="Program2BPolindrom.cs" />
     <Compile Remove="Program2BSeat.cs" />
+    <Compile Remove="Program3AFibonachi.cs" />
+    <Compile Remove="Program3AFibonachi2.cs" />
+    <Compile Remove="Program3APolitic.cs" />
     <Compile Remove="Program3ASumWithFile.cs" />
+    <Compile Remove="Program3BPolitic.cs" />
     <Compile Remove="ProgramBInteractor.cs" />
     <Compile Remove="ProgramBMetro.cs" />
     <Compile Remove="ProgramBSchool.cs" />
