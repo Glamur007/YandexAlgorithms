@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Text;
 
 namespace TestApp
 {
-    class Program3ASumWithFile
+    class Program4BVyboryUSA
     {
         static void Main(string[] args)
         {
-            var res = new Dictionary<string, int>();
-
             String line;
+            var res = new Dictionary<string, int>();
+            var sb = new StringBuilder();
             try
             {
                 //Pass the file path and file name to the StreamReader constructor
@@ -23,17 +25,18 @@ namespace TestApp
                     //write the line to console window
                     //Console.WriteLine(line);
                     string[] array = line.Split(' ');
-                    if (!string.IsNullOrWhiteSpace(array[0]) && !string.IsNullOrWhiteSpace(array[1]))
+
+                    var cnt = Convert.ToInt32(array[1]);
+                    var name = array[0];
+                    if (res.ContainsKey(name))
                     {
-                        if (res.ContainsKey(array[0]))
-                        {
-                            res[array[0]] = res[array[0]] + Convert.ToInt32(array[1]);
-                        }
-                        else
-                        {
-                            res[array[0]] = Convert.ToInt32(array[1]);
-                        }
+                        res[name] = res[name] + cnt;
                     }
+                    else
+                    {
+                        res.Add(name, cnt);
+                    }
+
                     //Read the next line
                     line = sr.ReadLine();
                 }
@@ -47,18 +50,20 @@ namespace TestApp
             finally
             {
             }
+            foreach (var i in res)
+            {
+                sb.AppendLine(i.Key + " " +i.Value);
+            }
+            Console.WriteLine(sb);
 
-            try
+            /*try
             {
                 //Pass the filepath and filename to the StreamWriter Constructor
                 StreamWriter sw = new StreamWriter("output.txt");
-                foreach (var s in res)
-                {
-                    sw.WriteLine(s.Key + " "+ s.Value.ToString());
-                }
                 //Write a line of text
                 //sw.WriteLine(r.ToString());
                 //Close the file
+                sw.WriteLine(sb.ToString());
                 sw.Close();
             }
             catch (Exception e)
@@ -67,7 +72,7 @@ namespace TestApp
             }
             finally
             {
-            }
+            }*/
         }
     }
 }
