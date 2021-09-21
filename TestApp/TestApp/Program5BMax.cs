@@ -4,7 +4,7 @@ using System.IO;
 
 namespace TestApp
 {
-    class Program5BSum
+    class Program5BMax
     {
         static void Main(string[] args)
         {
@@ -19,38 +19,31 @@ namespace TestApp
                 line = sr.ReadLine();
                 var arr = new Int64[n];
                 var arrStr = line.Split(' ');
-                for (int i = 0; i < arrStr.Length; i++)
+                int f = 0;
+                foreach (var s in arrStr)
                 {
-                    if (string.IsNullOrWhiteSpace(arrStr[i]))
+                    if (string.IsNullOrWhiteSpace(s))
                     {
                         continue;
                     }
-                    arr[i] = Convert.ToInt64(arrStr[i]);
+                    arr[f] = Convert.ToInt64(s);
+                    f++;
                 }
 
                 Int64? max = null;
-                Int64? localMax = null;
-                Int64? oldLocalMax = null;
                 for (int i = 0; i < n; i++)
                 {
-                    localMax = arr[i];
+                    var s = arr[i];
                     for (int j = i + 1; j < n; j++)
                     {
-                        oldLocalMax = localMax;
-                        localMax = localMax + arr[j];
-                        if (oldLocalMax > localMax)
+                        s = s + arr[j];
+
+                        if (s < max)
                         {
-                            if (oldLocalMax > max || !max.HasValue)
-                            {
-                                max = oldLocalMax;
-                            }
                             break;
                         }
-                    }
 
-                    if (max < localMax || !max.HasValue)
-                    {
-                        max = localMax;
+                        max = s;
                     }
                 }
                 Console.WriteLine(max);

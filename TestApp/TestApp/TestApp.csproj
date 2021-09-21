@@ -41,6 +41,8 @@
     <Compile Remove="Program4BVybory.cs" />
     <Compile Remove="Program4BVyboryUSA.cs" />
     <Compile Remove="Program5BComp.cs" />
+    <Compile Remove="Program5BMax.cs" />
+    <Compile Remove="Program5BSkoba.cs" />
     <Compile Remove="Program5BSum.cs" />
     <Compile Remove="ProgramBInteractor.cs" />
     <Compile Remove="ProgramBMetro.cs" />
